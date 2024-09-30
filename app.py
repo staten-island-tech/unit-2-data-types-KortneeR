@@ -11,4 +11,6 @@ else:
     print("both are odd")'''
 '''# Challenge 2''' 
 
-+990
+service = input("service")
+if service == "bad":
+    print("0%")
