@@ -14,3 +14,9 @@ else:
 service = input("service")
 if service == "bad":
     print("0%")
+elif service == "okay":
+    print("15%")
+elif service == "good":
+    print("20%")
+else:
+    print("25%")
