@@ -9,9 +9,9 @@ elif y % 2 == 0 or 2 == 0:
     print("one is even")
 else:
     print("both are odd")'''
-'''# Challenge 2''' 
+'''Challenge 2''' 
 
-service = input("service")
+'''service = input("service")
 if service == "bad":
     print("0%")
 elif service == "okay":
@@ -19,4 +19,10 @@ elif service == "okay":
 elif service == "good":
     print("20%")
 else:
-    print("25%")
+    print("25%")'''
+ 
+# challenge 3
+a = 45
+for i in range(2, a + 1):
+    if a % i == 0:
+        print(i)
