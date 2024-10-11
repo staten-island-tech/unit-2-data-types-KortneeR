@@ -9,7 +9,7 @@ elif y % 2 == 0 or 2 == 0:
     print("one is even")
 else:
     print("both are odd")'''
-'''Challenge 2''' 
+'''# Challenge 2''' 
 
 '''service = input("service")
 if service == "bad":
@@ -21,18 +21,13 @@ elif service == "good":
 else:
     print("25%")'''
  
-""" # challenge 3
+""" # Challenge 3
 a = 45
 for i in range(2, a + 1):
     if a % i == 0:
         print(i) """
 
-#challenge 4
-
-# :3 uwu >< meow
-
-# 45 % 2 (1) NOT EQual to 0
-# 45%3(0) equal to 0\\\
+#Challenge 4
 
 # get 2 numbers
 
@@ -41,3 +36,9 @@ for i in range(2, a + 1):
 #loop to smaller number +1
 
 # check if i is a factor of BOTH numbers
+
+a = 10
+b = 25
+for i in range(1, a + 1):
+    if a % i == 0 and b % i == 0:
+        print(i)
