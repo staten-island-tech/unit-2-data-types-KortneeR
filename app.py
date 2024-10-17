@@ -45,11 +45,11 @@ for i in range(1, a + 1):
 
 #Mad Libs Project Part
 #new comment
-"verb1" = "walking"
-"noun1" = "home"
-"celebrity guest" = "Shirley"
-"number" = "983,679,875"
-"noun2" = "meteors"
-"noun3" = "sky"
-"verb2" = "obliterated"
-print("I was walking home with Shirley when 983,679,875 meteors shot out from the sky and obliterated my face.")
+"verb1" = input("Enter a verb")
+"noun1" = input("Enter another verb")
+"celebrity guest" = input("Enter a noun")
+"number" = input
+"noun2" = (input)
+"noun3" = (input)
+"verb2" = (input)
+print("I was [verb1] [noun1] with Shirley when 983,679,875 meteors shot out from the sky and obliterated my face.")
