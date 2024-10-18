@@ -44,12 +44,14 @@ for i in range(1, a + 1):
         print(i) """
 
 #Mad Libs Project Part
-#new comment
-"verb1" = input("Enter a verb")
-"noun1" = input("Enter another verb")
-"celebrity guest" = input("Enter a noun")
-"number" = input
-"noun2" = (input)
-"noun3" = (input)
-"verb2" = (input)
-print("I was [verb1] [noun1] with Shirley when 983,679,875 meteors shot out from the sky and obliterated my face.")
+
+verb1 = input("Enter a verb: ")
+noun1 = input("Enter a noun: ")
+celebrityguest = input("Enter a celebrity: ")
+num = input("Enter a number: ")
+pluralnoun = input("Enter a plural noun: ")
+noun2 = input("Enter another noun: ")
+verb2 = input("Enter another verb: ")
+
+madlib = f"I was {verb1} {noun1} with {celebrityguest} when {num} {pluralnoun} shot out from the {noun2} and {verb2} my face."
+print(madlib)
