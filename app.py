@@ -55,3 +55,4 @@ verb2 = input("Enter another verb: ")
 
 madlib = f"I was {verb1} {noun1} with {celebrityguest} when {num} {pluralnoun} shot out from the {noun2} and {verb2} my face."
 print(madlib)
+
